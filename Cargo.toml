@@ -1,0 +1,14 @@
+[package]
+name = "fixerr"
+version = "0.1.0"
+authors = ["Nicholas Gurgenidze <nicholas.gurgenidze@gmail.com>"]
+edition = "2021"
+rust-version = "1.62"
+description = "A High-Performance Rust CLI & Library for Repairing Fragmented CSV Records"
+repository = "https://github.com/nicholas-gurgenidze/fixerr"
+license = "MIT"
+keywords = ["csv", "repair", "data-cleaning", "fixer", "georgia"]
+categories = ["command-line-utilities", "parser-implementations"]
+
+[dependencies]
+csv = "1.3"
